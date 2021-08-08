@@ -33,9 +33,9 @@ android {
     targetSdkVersion getExtOrIntegerDefault('targetSdkVersion')
     versionCode 1
     versionName "1.0"
-    
+
   }
-  
+
   buildTypes {
     release {
       minifyEnabled false
@@ -127,4 +127,7 @@ dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
+  implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8'
+  implementation 'com.github.ashqal:MD360Player4Android:2.5.0'
 }

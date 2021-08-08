@@ -10,7 +10,8 @@ import com.facebook.react.ReactInstanceManager;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
-import com.reactnativevrplayer.VrPlayerPackage;
+
+import com.reactnativevrplayer.ReactVRVideoViewPackage;
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -27,7 +28,7 @@ public class MainApplication extends Application implements ReactApplication {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for VrPlayerExample:
           // packages.add(new MyReactNativePackage());
-          packages.add(new VrPlayerPackage());
+          packages.add(new ReactVRVideoViewPackage());
           return packages;
         }
 

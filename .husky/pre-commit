@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+sh ./pre-commit-prevent-large-files.sh
+npx lint-staged

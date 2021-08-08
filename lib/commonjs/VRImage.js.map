@@ -1,0 +1,1 @@
+{"version":3,"sources":["VRImage.js"],"names":["VRImage","params"],"mappings":";;;;;;;AAAA;;AACA;;;;AAEA;AACA,SAASA,OAAT,CAAiBC,MAAjB,EAAyB;AACvB,sBAAO,6BAAC,iBAAD,OAAP;AACD;;eAEcD,O","sourcesContent":["import React from 'react';\nimport { View } from 'react-native';\n\n//todo\nfunction VRImage(params) {\n  return <View />;\n}\n\nexport default VRImage;\n"]}
